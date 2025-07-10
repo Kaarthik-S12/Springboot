@@ -18,4 +18,5 @@ public class AuthController {
     public String login(@RequestBody RegisterDetails userDetails) {
         return authService.authentication(userDetails);
     }
+
 }
